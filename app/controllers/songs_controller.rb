@@ -1,6 +1,6 @@
   
    require 'aws/s3'
-   BUCKET = 'tmoscato'
+   BUCKET = ''
 
    class SongsController < ApplicationController  
       def index  
