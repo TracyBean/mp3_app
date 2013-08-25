@@ -11,13 +11,13 @@ module Mp3App
     config.filter_parameters += [:password]
     config.encoding = "utf-8"
     AWS::S3::Base.establish_connection!(
-        :access_key_id     => 'AKIAJCGI7BGNPADTN5SA',
-        :secret_access_key => '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'
+        :access_key_id     => '',
+        :secret_access_key => ''
     
      )
 
 
-    BUCKET = 'tmoscato'
+    BUCKET = ''
 
 
 
